@@ -57,7 +57,7 @@ console.log(typeof javascriptISFUN);
 console.log(typeof 88);
 console.log('jibril');
 
-*/
+
 let javascriptISFUN = true;
 console.log(javascriptISFUN);
 
@@ -73,4 +73,20 @@ console.log(typeof month)
 
 month = 2000
 console.log(month);
+*/
+
+let age = 66;
+age = 75;
+console.log(age)
+
+// const creates a variables that cannot be muated.
+// when using const you need a value
+const birthYear = 1999;
+
+
+let job = 'programmer';
+job = 'Coder!';
+console.log(job)
+
+
 
