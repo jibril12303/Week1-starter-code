@@ -73,7 +73,7 @@ console.log(typeof month)
 
 month = 2000
 console.log(month);
-*/
+
 
 let age = 66;
 age = 75;
@@ -88,5 +88,38 @@ let job = 'programmer';
 job = 'Coder!';
 console.log(job)
 
+*/
+// Basic operators
+const now = 2022
+const ageJibril = now - 1999;
+const ageIbby = 2050 - 2005;
+console.log(ageIbby, ageJibril);
 
+console.log(ageIbby-ageJibril, ageIbby / 10, 2 ** 3);
 
+const firstName = 'Mohamed';
+const lastName = 'Salah';
+console.log(firstName + ' ' + lastName);
+
+let x = 10 + 7;
+x += 10; // x = x + 10
+console.log(x);
+
+console.log(ageIbby > ageJibril);
+console.log(ageJibril >= 18);
+
+const markWeight = 78;
+const markHeight = 1.69;
+const johnWeight = 92;
+const johnHeight = 1.95;
+
+BMI1 = markWeight / markHeight ** 2
+BMI2 = johnWeight / johnHeight ** 2
+
+console.log(BMI1 / (johnHeight * johnHeight))
+console.log(BMI2 / (markHeight * markHeight))
+const markHigherBMI = BMI1 > BMI2
+console.log(markHigherBMI)
+
+/*BMI = mass / height ** 2 = mass / (height * height) (mass in kg
+and height in meter) */
